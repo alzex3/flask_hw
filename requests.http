@@ -1,0 +1,21 @@
+### Post advert
+POST http://127.0.0.1:5000/api/adverts
+Content-Type: application/json
+
+{
+  "title": "Test Title",
+  "description": "Test Description",
+  "owner": "Test User"
+}
+
+### Get all adverts
+GET http://127.0.0.1:5000/api/adverts
+Accept: application/json
+
+### Get advert with id
+GET http://127.0.0.1:5000/api/advert/1
+Accept: application/json
+
+### Delete advert
+DELETE http://127.0.0.1:5000/api/advert/4
+Accept: application/json
