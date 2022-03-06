@@ -17,5 +17,5 @@ GET http://127.0.0.1:5000/api/advert/1
 Accept: application/json
 
 ### Delete advert
-DELETE http://127.0.0.1:5000/api/advert/4
+DELETE http://127.0.0.1:5000/api/advert/1
 Accept: application/json
